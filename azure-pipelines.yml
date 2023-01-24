@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:POC
-  vmImage: Agent-token
+pool: POC
+  
 
 steps:
 - task: Maven@3
